@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Playte | Play Together</title>
+    <link rel="stylesheet" href="style.css?v=2" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="logo" href="#"><img src="assets/playte-logo.svg?v=2" alt="Playte logo" /><span>Playte Games</span></a>
+        <nav aria-label="Main navigation">
+          <ul>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#event">Event</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">TABLETOP FUN FOR EVERYONE</p>
+          <h1>Bring Your Game Night to Life</h1>
+          <p>
+            We design social, story-driven board games for friends, families,
+            and escape-room lovers. Easy to learn, hard to stop playing.
+          </p>
+          <p class="odd-note">Trusted by 111% of our internal playtesters.</p>
+          <div class="actions">
+            <a class="btn primary" href="#games">Explore Games</a>
+            <a class="btn ghost" href="#contact">Partnership Inquiry</a>
+          </div>
+        </div>
+        <div class="hero-card" role="img" aria-label="Board game components"></div>
+      </section>
+
+      <section id="games" class="section container reveal reveal-up">
+        <div class="section-head">
+          <h2>Popular Titles</h2>
+          <div class="scroll-visual reveal reveal-right" aria-hidden="true"></div>
+        </div>
+        <div class="cards">
+          <article class="card reveal reveal-up">
+            <h3>Castle Heist</h3>
+            <p>A cooperative puzzle adventure with hidden clues and timed rounds.</p>
+          </article>
+          <article class="card reveal reveal-up">
+            <h3>Moonlight Market</h3>
+            <p>Fast-paced strategy game where players build the best night bazaar.</p>
+          </article>
+          <article class="card reveal reveal-up">
+            <h3>Signal 404</h3>
+            <p>A deduction game about decoding messages before your rivals do.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section alt reveal reveal-up">
+        <div class="container two-col">
+          <div class="reveal reveal-left">
+            <h2>Why Playte?</h2>
+            <p>
+              We combine cinematic storytelling with clean, replayable mechanics.
+              From casual players to hobby gamers, our catalog is designed for
+              meaningful table moments.
+            </p>
+          </div>
+          <ul class="stats reveal reveal-right">
+            <li><strong>120K+</strong><span>Units sold worldwide</span></li>
+            <li><strong>18</strong><span>Original titles released</span></li>
+            <li><strong>35</strong><span>Global retail partners</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="event" class="section container reveal reveal-up">
+        <h2>April Fools Special Event</h2>
+        <p class="event-sub">
+          Try our mini online escape challenge and unlock an exclusive discount.
+        </p>
+        <div class="event-box reveal reveal-left">
+          <p id="status" aria-live="polite">Enter the 4-digit code to reveal your reward.</p>
+          <div class="input-wrap">
+            <label for="code" class="sr-only">Enter 4-digit code</label>
+            <input id="code" type="text" inputmode="numeric" maxlength="4" placeholder="----" autocomplete="off" />
+            <button id="unlock">Unlock</button>
+          </div>
+          <button id="hintBtn" class="link-btn" type="button">Need a hint?</button>
+          <p id="hint" class="hint hidden">Hint: Not every April Fools note tells the truth. One digit is 0.</p>
+          <p id="reward" class="reward hidden">🎉 Nice! Use code <strong>PLAY10</strong> for 10% off this week.</p>
+        </div>
+      </section>
+
+      <section id="admin" class="section container reveal reveal-up">
+        <div class="admin-box reveal reveal-right">
+          <p class="admin-label">Internal Access</p>
+          <h2>Admin Login</h2>
+          <p class="event-sub">Authorized staff can access confidential launch materials.</p>
+          <form id="adminForm" class="admin-form">
+            <label for="adminId">ID</label>
+            <input id="adminId" type="text" placeholder="admin" autocomplete="off" />
+            <label for="adminPw">Password</label>
+            <input id="adminPw" type="password" placeholder="••••••" autocomplete="off" />
+            <button type="submit">Sign in</button>
+          </form>
+          <p id="adminMsg" aria-live="polite" class="event-sub">Access restricted.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <p>© 2026 Playte. All rights reserved.</p>
+        <a href="mailto:hello@playte.example">hello@playte.example</a>
+      </div>
+    </footer>
+
+    <script src="script.js?v=2"></script>
+  </body>
+</html>
