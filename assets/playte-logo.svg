@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Playte logo">
+  <circle cx="256" cy="256" r="256" fill="#1f4f85"/>
+  <path d="M170 106l120-58 20 42-120 58z" fill="#00b2cc"/>
+  <text x="256" y="270" text-anchor="middle" font-family="'Brush Script MT', 'Segoe Script', cursive" font-size="146" font-weight="700" fill="#ffffff">playte</text>
+  <rect x="70" y="330" width="372" height="56" fill="#f2f3f7"/>
+  <text x="256" y="369" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1f4f85">A VAST PLATE TO PLAY</text>
+</svg>

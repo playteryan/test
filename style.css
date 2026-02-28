@@ -45,6 +45,20 @@ body {
   color: var(--text);
   text-decoration: none;
   font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.logo img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.logo span {
+  line-height: 1;
 }
 
 nav ul {
@@ -90,7 +104,8 @@ nav a {
   border: 1px solid var(--line);
   background:
     linear-gradient(120deg, rgba(117, 226, 255, 0.35), rgba(117, 226, 255, 0)),
-    linear-gradient(230deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    linear-gradient(230deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)),
+    url("assets/playte-logo.svg") center / min(280px, 75%) no-repeat;
 }
 
 .actions {
