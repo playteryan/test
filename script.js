@@ -57,11 +57,9 @@ const revealItems = document.querySelectorAll(".reveal");
 
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
-    (entries, obs) => {
+    (entries) => {
       entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add("in-view");
-        obs.unobserve(entry.target);
+        entry.target.classList.toggle("in-view", entry.isIntersecting);
       });
     },
     { threshold: 0.2, rootMargin: "0px 0px -6% 0px" }
