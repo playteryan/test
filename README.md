@@ -1,4 +1,4 @@
-# BoardNest April Fools Demo
+# Playte April Fools Demo
 
 This project is a static website. To preview it, run a local HTTP server first.
 
